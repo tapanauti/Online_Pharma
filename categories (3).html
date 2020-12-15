@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>categories</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="project.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="project.php"><i class="fa fa-plus-square" aria-hidden="true"></i>MEDICO</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="project.php">HOME</a></li>
+         <li><a href="emergency.php">EMERGENCY</a></li>
+         <li><a href="search.html">PRESCRIPTION</a></li>
+        
+       
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <!-- <span class="caret"></span>--></a> 
+          <ul class="dropdown-menu">
+           <li><a id="signup" href="signup.php"><i class="fa fa-user-plus" aria-hidden="true"></i>SIGNUP</a></li>
+             <li><a id="login" href="login.php"><i class="fa fa-user-plus" aria-hidden="true"></i>LOGIN</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<p id="mn"><h1 id="h" align="center">  CATEGORIES </h1></p>
+<br>
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-3" >
+  <h2 id="x" >BABY AND MOTHER</h2>  
+  <div><p>1-Baby Skin Care </p>
+   <p>2-Baby Bath Product</p>
+   <p>3-Baby Diapers & Wipes</p> 
+   <p>4-Infant Food & Formula</p>
+   <p>5-Baby Bed & Pillow </p>
+   <p>6-Baby Hair Care </p>
+   <p>7-Feeding Accessories </p>
+   <p>8-Health Needs</p> </div>
+   </div>
+
+  <div class="col-sm-3">
+  <h2 id="x" >OTC</h2>
+  <div>
+      <p>1-FIRST AID</p>
+      
+         
+  <a href="#demo" data-toggle="collapse"><p>2-HEALTH CARE</p></a>
+  <div id="demo" class="collapse">
+      <p>Vitamin tablets, pain relievers, balms.</p></div>
+  <a href="#demo1" data-toggle="collapse"><p>4-WOMENS CARE</p></a>
+  <div id="demo1" class="collapse">
+  <p>Harmone medicines, genital care, beauty supports</p></div>
+  </div>
+  </div>
+
+  <div class="col-sm-3">
+  <h2 id="x" >PERSONAL CARE</h2>
+  <div><a href="#demo2" data-toggle="collapse"><p>1-Body Care</p></a>
+  <div id="demo2" class="collapse">
+      <p>Soaps, body washes</p></div>
+  <p>2-Eye Care</p>
+  <p>3-Facial Kit</p>
+  <p>4-Hair Care</p>
+  <p>5-Hand & Foot Care</p>
+  <p>6-Lip Care</p>
+  
+  <p>7-Nail Care</p>
+  <p>8-Oral Care</p>
+  <p>9-Skin Care</p>
+  </div>
+  </div>
+
+  <div class="col-sm-3">
+  <h2 id="x" >HEALTH AID</h2>
+  <div><a href="#demo3" data-toggle="collapse"><p>1-Health Monitor & Equipments</p></a>
+  <div id="demo3" class="collapse">
+      <p>Blood pressure monitor , weighing scales , thermometer</p></div>
+  <p>2-Ortho Support</p>
+  <a href="#demo4" data-toggle="collapse"><p>3-Senior Care & Aids</p></a>
+  <div id="demo4" class="collapse">
+      <p>Adult diapers</p></div>
+  </div>
+</div>
+</div>
+<br>
+<p><h5 align="left">*ALL THE ABOVE ARE AVIALABLE WITH ALL OUR PARTNER STORES</h5></p>
+<br>
+<br>
+
+       
+            	 
+				                        <div class="form-group">
+				                        <p>Select area from where you want to buy medicine</p>	 
+       									 <select id="select" name ="dropdown1">
+				                        	<option name = "one" value="1">LAXMI ROAD</option>
+				                        	<option name = "two" value="2">CAMP</option>
+				                        	<option name = "three" value="3">KOREGAON PARK</option>
+				                        	<option name = "four" value="4">SINHAGAD ROAD</option>
+				                        	<option name = "five" value="5">WARJE</option>
+				                        	<option name = "six" value="6">AUNDH</option>
+				                        	<option name = "seven" value="7">BAVDHAN</option>
+				                        	<option name = "eight" value="8">BANER</option>
+				                        	<option name = "nine" value="9">KOTHRUD</option>
+				                        	<option name = "ten" value="10">HADAPSAR</option>
+				                        	
+				                        	</select>
+
+
+				                        </div>
+<button type="submit" class="btn showshop" >SHOW SHOPS</button>
+
+<br>
+
+<ul class="showdata">
+
+</ul>
+</div>
+
+</div>
+<script>
+    
+        
+          $(".showshop").click(function(){
+               $('.showdata')
+    .find('li')
+    .remove();
+         var dvalue = $('#select option:selected').val()
+         
+         console.log(dvalue )
+         $.ajax({
+                url: "get_shop.php",
+                type: "get",
+                data: {
+                    "shop": dvalue,
+                    
+                    },
+                     success: function(result){
+                         console.log(result)
+                         var obj = JSON.parse(result);
+                         
+                     
+                      for (var i = 0; i < obj.length; i++) {
+ 
+                      $('.showdata').append('<li>'+obj[i].msname+'<br>'+$('#select option:selected').text()+'<br>'+obj[i].cno+'</li>');
+                      }
+                      
+        
+                      
+                      
+                      }});
+          });
+        
+       
+    
+</script>
+</body>
+</html>
